@@ -1,0 +1,56 @@
+ERROR - 2022-08-16 20:20:01 --> mysqli_sql_exception: Column 'cod_region' cannot be null in C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\app\Controllers\Regiones.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(898): App\Controllers\Regiones->agregarRegion()
+#9 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#10 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-16 20:20:01 --> Undefined variable $regionesBd
+in APPPATH\Views\regiones\lista_regiones.php on line 35.
+ 1 APPPATH\Views\regiones\lista_regiones.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regionesBd', 'APPPATH\\Views\\regiones\\lista_regiones.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\regiones\\lista_regiones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('regiones/lista_regiones', [], true)
+ 5 APPPATH\Controllers\Regiones.php(31): view('regiones/lista_regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Regiones->agregarRegion()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-16 20:21:38 --> mysqli_sql_exception: Column 'cod_region' cannot be null in C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\app\Controllers\Regiones.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(898): App\Controllers\Regiones->agregarRegion()
+#9 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#10 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-08-16 20:22:36 --> mysqli_sql_exception: Column 'cod_region' cannot be null in C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\app\Controllers\Regiones.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(898): App\Controllers\Regiones->agregarRegion()
+#9 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Regiones))
+#10 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\2022PP\EjemploCodeIgniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
